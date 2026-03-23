@@ -1621,7 +1621,7 @@
 
                     <div class="glossary-term">
                         <div class="glossary-term-name">Safe Workspace</div>
-                        <div class="glossary-term-definition">Trisian's core managed product — a cloud-based desktop environment (DaaS) built on Microsoft Azure Virtual Desktop (AVD) or Citrix Cloud. Safe Workspace unifies Microsoft 365 licensing, endpoint security, monitoring, compliance automation, and support into a single platform managed entirely by Trisian. It is the tangible delivery of Trisian's three-pillar framework: Security that Anticipates, Performance that Scales, and Compliance that Facilitates.</div>
+                        <div class="glossary-term-definition">Trisian's core managed product — a cloud-based desktop environment (Desktop as a Service / DaaS) built on Microsoft Azure Virtual Desktop (AVD) or Citrix Cloud. Safe Workspace unifies Microsoft 365 licensing, virtual desktop infrastructure, endpoint security, automated monitoring, compliance automation, and human-delivered support into a single managed platform. It is the delivery vehicle for Trisian's three-pillar framework: Security that Anticipates, Performance that Scales, and Compliance that Facilitates. All three service tiers (Core, Advanced, Enterprise) are Safe Workspace tiers.</div>
                     </div>
 
                     <div class="glossary-term">
@@ -1860,6 +1860,8 @@
                     <p>We offer three service packages: <strong>Core</strong> (the essentials), <strong>Advanced</strong> (more features and 24/7 support), and <strong>Enterprise</strong> (everything plus dedicated security and compliance tools). The tier you pick is in your Service Order. Each tier includes everything below it—Enterprise includes everything Advanced and Core offer, plus extra features. Services we don't provide are listed separately so there's no confusion.</p>
                 </div>
 
+                <p>Trisian delivers Safe Workspace through three integrated pillars — <strong>Security that Anticipates</strong>, <strong>Performance that Scales</strong>, and <strong>Compliance that Facilitates</strong>. Every capability in your tier is mapped to one of these pillars, ensuring that security, infrastructure, and compliance work together rather than as separate silos.</p>
+
                 <!-- Service Tiers Comparison -->
                 <h3>Service Tiers Comparison</h3>
                 <div class="tier-comparison">
@@ -1867,7 +1869,7 @@
                     <div class="tier-card">
                         <div class="tier-name">Core</div>
                         <div class="tier-price">$[___]<span class="tier-price-unit">/user/month</span></div>
-                        <p style="color: var(--medium-gray); font-size: 0.9rem; margin-bottom: 1.5rem;">For small to mid-sized businesses up to 300 users with standard security needs.</p>
+                        <p style="color: var(--medium-gray); font-size: 0.9rem; margin-bottom: 1.5rem;">The foundation for secure cloud desktops. For small to mid-sized businesses up to 300 users with standard security needs.</p>
                         <ul class="tier-features">
                             <li class="tier-feature">
                                 <i data-lucide="check-circle" class="tier-feature-icon"></i>
@@ -1903,15 +1905,39 @@
                             </li>
                             <li class="tier-feature">
                                 <i data-lucide="check-circle" class="tier-feature-icon"></i>
+                                <span>Azure Virtual Desktop licensing</span>
+                            </li>
+                            <li class="tier-feature">
+                                <i data-lucide="check-circle" class="tier-feature-icon"></i>
+                                <span>Non-persistent desktop pools (reset each session)</span>
+                            </li>
+                            <li class="tier-feature">
+                                <i data-lucide="check-circle" class="tier-feature-icon"></i>
+                                <span>FSLogix profile containers for user data persistence</span>
+                            </li>
+                            <li class="tier-feature">
+                                <i data-lucide="check-circle" class="tier-feature-icon"></i>
+                                <span>OneDrive Known Folder Move (Desktop, Documents, Pictures)</span>
+                            </li>
+                            <li class="tier-feature">
+                                <i data-lucide="check-circle" class="tier-feature-icon"></i>
+                                <span>Entra ID authentication with MFA enforcement</span>
+                            </li>
+                            <li class="tier-feature">
+                                <i data-lucide="check-circle" class="tier-feature-icon"></i>
+                                <span>Nerdio Manager for AVD management</span>
+                            </li>
+                            <li class="tier-feature">
+                                <i data-lucide="check-circle" class="tier-feature-icon"></i>
+                                <span>Azure cost optimization and resource management</span>
+                            </li>
+                            <li class="tier-feature">
+                                <i data-lucide="check-circle" class="tier-feature-icon"></i>
                                 <span>HaloPSA ticket access</span>
                             </li>
                             <li class="tier-feature">
                                 <i data-lucide="check-circle" class="tier-feature-icon"></i>
-                                <span>[40] Support Hours per month included</span>
-                            </li>
-                            <li class="tier-feature not-included">
-                                <i data-lucide="x-circle" class="tier-feature-icon"></i>
-                                <span>Safe Workspace</span>
+                                <span>[___] Support Hours per month (determined during assessment)</span>
                             </li>
                             <li class="tier-feature not-included">
                                 <i data-lucide="x-circle" class="tier-feature-icon"></i>
@@ -1920,6 +1946,14 @@
                             <li class="tier-feature not-included">
                                 <i data-lucide="x-circle" class="tier-feature-icon"></i>
                                 <span>Advanced security features</span>
+                            </li>
+                            <li class="tier-feature not-included">
+                                <i data-lucide="x-circle" class="tier-feature-icon"></i>
+                                <span>CIS-hardened workstation images</span>
+                            </li>
+                            <li class="tier-feature not-included">
+                                <i data-lucide="x-circle" class="tier-feature-icon"></i>
+                                <span>Advanced compliance automation</span>
                             </li>
                         </ul>
                     </div>
@@ -1968,11 +2002,23 @@
                             </li>
                             <li class="tier-feature">
                                 <i data-lucide="check-circle" class="tier-feature-icon"></i>
-                                <span>Proactive user experience monitoring</span>
+                                <span>Web content filtering</span>
                             </li>
                             <li class="tier-feature">
                                 <i data-lucide="check-circle" class="tier-feature-icon"></i>
-                                <span>Safe Workspace environment</span>
+                                <span>Email authentication &amp; anti-spoofing (SPF, DKIM, DMARC)</span>
+                            </li>
+                            <li class="tier-feature">
+                                <i data-lucide="check-circle" class="tier-feature-icon"></i>
+                                <span>Infrastructure health monitoring (RMM)</span>
+                            </li>
+                            <li class="tier-feature">
+                                <i data-lucide="check-circle" class="tier-feature-icon"></i>
+                                <span>Azure auto-scaling and schedule-based scaling</span>
+                            </li>
+                            <li class="tier-feature">
+                                <i data-lucide="check-circle" class="tier-feature-icon"></i>
+                                <span>Proactive user experience monitoring</span>
                             </li>
                             <li class="tier-feature">
                                 <i data-lucide="check-circle" class="tier-feature-icon"></i>
@@ -1980,11 +2026,19 @@
                             </li>
                             <li class="tier-feature">
                                 <i data-lucide="check-circle" class="tier-feature-icon"></i>
-                                <span>[80] Support Hours per month included</span>
+                                <span>[___] Support Hours per month (determined during assessment)</span>
                             </li>
                             <li class="tier-feature">
                                 <i data-lucide="check-circle" class="tier-feature-icon"></i>
                                 <span>24/7/365 support included in base rate</span>
+                            </li>
+                            <li class="tier-feature not-included">
+                                <i data-lucide="x-circle" class="tier-feature-icon"></i>
+                                <span>SIEM/SOAR, PIM, Zero Trust, DLP auto-labeling</span>
+                            </li>
+                            <li class="tier-feature not-included">
+                                <i data-lucide="x-circle" class="tier-feature-icon"></i>
+                                <span>Vanta Compliance Platform (available as add-on)</span>
                             </li>
                         </ul>
                     </div>
@@ -1993,7 +2047,7 @@
                     <div class="tier-card">
                         <div class="tier-name">Enterprise</div>
                         <div class="tier-price">$[___]<span class="tier-price-unit">/user/month</span></div>
-                        <p style="color: var(--medium-gray); font-size: 0.9rem; margin-bottom: 1.5rem;">For mission-critical environments (150+ users) requiring 24/7 support and maximum uptime.</p>
+                        <p style="color: var(--medium-gray); font-size: 0.9rem; margin-bottom: 1.5rem;">Built for regulated industries. Full compliance automation for organizations with complex regulatory requirements (HIPAA, SOC 2, SOX, DORA, PCI-DSS). Unlimited users.</p>
                         <ul class="tier-features">
                             <li class="tier-feature">
                                 <i data-lucide="check-circle" class="tier-feature-icon"></i>
@@ -2037,6 +2091,26 @@
                             </li>
                             <li class="tier-feature">
                                 <i data-lucide="check-circle" class="tier-feature-icon"></i>
+                                <span>Pre-built compliance controls mapped to frameworks</span>
+                            </li>
+                            <li class="tier-feature">
+                                <i data-lucide="check-circle" class="tier-feature-icon"></i>
+                                <span>Multi-region infrastructure with automatic failover</span>
+                            </li>
+                            <li class="tier-feature">
+                                <i data-lucide="check-circle" class="tier-feature-icon"></i>
+                                <span>Customized workstation images for industry applications</span>
+                            </li>
+                            <li class="tier-feature">
+                                <i data-lucide="check-circle" class="tier-feature-icon"></i>
+                                <span>Dedicated host pools for sensitive workloads</span>
+                            </li>
+                            <li class="tier-feature">
+                                <i data-lucide="check-circle" class="tier-feature-icon"></i>
+                                <span>Named Technical Account Manager</span>
+                            </li>
+                            <li class="tier-feature">
+                                <i data-lucide="check-circle" class="tier-feature-icon"></i>
                                 <span>Vanta Compliance Platform (included)</span>
                             </li>
                             <li class="tier-feature">
@@ -2045,15 +2119,11 @@
                             </li>
                             <li class="tier-feature">
                                 <i data-lucide="check-circle" class="tier-feature-icon"></i>
-                                <span>Safe Workspace environment</span>
-                            </li>
-                            <li class="tier-feature">
-                                <i data-lucide="check-circle" class="tier-feature-icon"></i>
                                 <span>HaloPSA ticket access with priority queue</span>
                             </li>
                             <li class="tier-feature">
                                 <i data-lucide="check-circle" class="tier-feature-icon"></i>
-                                <span>[150] Support Hours per month included</span>
+                                <span>[___] Support Hours per month (determined during assessment)</span>
                             </li>
                             <li class="tier-feature">
                                 <i data-lucide="check-circle" class="tier-feature-icon"></i>
@@ -2079,7 +2149,7 @@
                             <h4 class="card-title">Monitoring & Alerting</h4>
                         </div>
                         <div class="card-content">
-                            24×7 automated platform monitoring of your infrastructure and services. All tiers receive 24×7 monitoring. Your support window (when humans respond) depends on your tier.
+                            24×7 automated platform monitoring across all tiers — anomaly detection and auto-remediation of known issues. Host pool health monitoring, session host lifecycle management, and performance trend identification. When an alert requires human intervention, it transitions to billable support hours.
                         </div>
                     </div>
 
@@ -2091,7 +2161,7 @@
                             <h4 class="card-title">Security & Patching</h4>
                         </div>
                         <div class="card-content">
-                            Automated OS and Microsoft 365 application patching deployed across your environment. Security updates applied on schedule with zero manual intervention.
+                            Automated OS and Microsoft 365 application patching. Security baseline hardening, monitoring agent updates, and automated re-imaging for platform maintenance. All deployed across your environment with zero manual intervention.
                         </div>
                     </div>
 
@@ -2115,7 +2185,7 @@
                             <h4 class="card-title">Support & Troubleshooting</h4>
                         </div>
                         <div class="card-content">
-                            Response and resolution of incidents and service requests within SLA targets. Escalation path through up to 3 Authorized Contacts. Access to HaloPSA for ticket visibility.
+                            Response and resolution of incidents and service requests within SLA targets. Priority classification via Impact × Urgency matrix in HaloPSA. Escalation path through up to 3 Authorized Contacts. Core tier: business hours. Advanced and Enterprise: 24/7/365.
                         </div>
                     </div>
 
@@ -2127,7 +2197,7 @@
                             <h4 class="card-title">Infrastructure Optimization</h4>
                         </div>
                         <div class="card-content">
-                            Ongoing management of Azure resources, sizing, right-sizing, and capacity planning. We track resource utilization and recommend improvements to your deployment.
+                            Ongoing Azure cost optimization, auto-scaling configuration, and resource management. FSLogix profile container maintenance. Session host lifecycle management — creation, monitoring, and decommissioning handled automatically.
                         </div>
                     </div>
 
@@ -2205,7 +2275,7 @@
                                 <i data-lucide="smartphone" style="width: 18px; height: 18px; color: var(--red);"></i>
                                 End-User Device Support
                             </div>
-                            <p>User laptops, desktops, printers, and mobile devices are your responsibility. We support line-of-business applications running on the managed infrastructure.</p>
+                            <p>User laptops, desktops, printers, and mobile devices are your responsibility. Trisian supports virtual desktop connectivity from any device but does not manage the physical devices themselves.</p>
                         </div>
                     </div>
 
@@ -2215,7 +2285,7 @@
                                 <i data-lucide="building" style="width: 18px; height: 18px; color: var(--red);"></i>
                                 Compliance & Regulatory Services
                             </div>
-                            <p>Compliance strategy, audit preparation, and legal/regulatory advice are outside our scope. We can assist with technical controls supporting compliance.</p>
+                            <p>Standalone compliance consulting and legal/regulatory advice are outside our scope. However, technical compliance controls, automated evidence collection, and compliance platform management (Vanta, Purview) are available based on your tier and add-ons. Achieving certification requires organizational measures (policies, procedures, training) that remain your responsibility.</p>
                         </div>
                     </div>
 
@@ -2225,7 +2295,7 @@
                                 <i data-lucide="briefcase" style="width: 18px; height: 18px; color: var(--red);"></i>
                                 Business Continuity & Disaster Recovery
                             </div>
-                            <p>Design and testing of DR/BC plans are Professional Services. We provide tools and infrastructure; you direct the strategy.</p>
+                            <p>DR/BC architecture design, implementation, and testing are available as Professional Services engagements — quoted separately with defined scope and deliverables. The platform includes built-in redundancy and backup as part of the Platform Fee.</p>
                         </div>
                     </div>
                 </div>
@@ -2989,7 +3059,7 @@
         </div>
         <div class="card">
             <h4 style="color: var(--cobalt-blue); margin-top: 0;">ControlUp</h4>
-            <p style="margin-bottom: 0; font-size: 0.9rem;">Advanced RDS/Citrix monitoring, troubleshooting, and optimization. Real-time performance visibility. Per-user/month.</p>
+            <p style="margin-bottom: 0; font-size: 0.9rem;">Real-time user experience scoring, performance analytics, and capacity forecasting for virtual desktop environments. Trisian manages the monitoring platform by default. Two tiers available: Trisian-Managed Monitoring (included in add-on fee) and Client Portal Access (additional fee for self-service dashboards). Paid add-on for ALL tiers.</p>
         </div>
         <div class="card">
             <h4 style="color: var(--cobalt-blue); margin-top: 0;">Compliance Log Archival</h4>
@@ -3300,6 +3370,14 @@
         </div>
     </div>
 
+    <div class="warning-box" style="margin: 1rem 0;">
+        <div class="warning-box-title">
+            <i data-lucide="alert-triangle" class="icon"></i>
+            Critical: Non-Persistent Desktops
+        </div>
+        <p><strong>Safe Workspace uses non-persistent desktops that reset the system state after each session.</strong> User files stored on the local desktop or C: drive are deleted when the session closes. User files persist automatically via OneDrive Known Folder Move (Desktop, Documents, Pictures), and user profiles persist via FSLogix. A "What to Expect" user guide is provided during onboarding.</p>
+    </div>
+
     <div class="card" style="margin-top: 1rem;">
         <div class="card-header">
             <div class="card-icon" style="background-color: var(--simple-terms-bg);">
@@ -3561,7 +3639,7 @@
     </div>
     <div class="card">
       <h4>Client Data</h4>
-      <p><strong>What:</strong> Files, documents, work product, configurations you store in Safe Workspace</p>
+      <p><strong>What:</strong> Files and documents stored in synced locations (OneDrive, SharePoint) within the Safe Workspace environment. Note: Safe Workspace uses non-persistent desktops — files saved to the local desktop or C: drive are NOT retained between sessions. Always save to OneDrive or SharePoint.</p>
       <p><strong>Who owns:</strong> You exclusively</p>
       <p><strong>Retention:</strong> Deleted upon your request or within 30 days of account termination</p>
     </div>
@@ -3578,7 +3656,7 @@
         <i data-lucide="lightbulb" class="icon"></i>
         Compliance Frameworks Supported
     </div>
-    Trisian supports clients across multiple compliance frameworks including SOC 2, HIPAA, ISO 27001, GDPR, PCI-DSS, DORA, SOX, CMMC, GLBA, HITRUST, and HITECH. Framework-specific controls and evidence collection are available based on your tier and selected add-ons.
+    Trisian supports clients across multiple compliance frameworks including SOC 2, HIPAA, ISO 27001, GDPR, PCI-DSS, DORA, SOX, CMMC, GLBA, HITRUST, and HITECH. Framework-specific controls, evidence collection, and compliance platform management are available based on your tier and selected add-ons. See Schedule B (GDPR DPA), Schedule C (HIPAA BAA), and your Service Order for framework-specific terms.
   </div>
 
   <h3>Where Your Data Lives</h3>
